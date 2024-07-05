@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*
+    LiveBaitShop
+    CIS-130-W01 SU 24
+    William Meyers
+    2024-07-04
+    style.css
+*/
+
+
+
+
+/* form styles */
+
+.input {
+    white-space: nowrap;
+}
