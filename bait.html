@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae707072e6.js" crossorigin="anonymous"></script>
     <title>Bait -- Howard's Lakeside General Store</title>
     <!-- 
     LiveBaitShop
@@ -26,8 +27,10 @@
         </nav>
     </header>
     <h1>Now offering curbside pickup -- Place your order below</h1>
+    <h2>*Bait availability based on season*</h2>
 
     <form id="baitOrder" action="thankyou.html" method="get">
+        <div class="baitOrderContainer">
         <fieldset id="contactInfo">
             <legend>Contact&nbsp;Information</legend>
             <div class="input">
@@ -51,58 +54,58 @@
             <legend>Live&nbsp;Bait</legend>
             <div class="input">
                 <input type="number" id="redworms" name="redworms" min="0" max="10" placeholder="0">
-                <label for="redworms">Redworms&nbsp;$3.45/24&nbsp;ct.</label>
+                <label for="redworms"><br>Redworms<br>$3.45/24&nbsp;ct.</label>
             </div>
             <div class="input">
                 <input type="number" id="nightCrawlers" name="nightCrawlers" min="0" max="10" placeholder="0">
-                <label for="nightCrawlers">Night&nbsp;Crawlers&nbsp;$2.80/12&nbsp;ct.</label>
+                <label for="nightCrawlers"><br>Night&nbsp;Crawlers<br>$2.80/12&nbsp;ct.</label>
             </div>
             <div class="input">
                 <input type="number" id="glowWorms" name="glowWorms" min="0" max="10" placeholder="0">
-                <label for="glowWorms">Glow&nbsp;Worms&nbsp;$3.25/12&nbsp;ct.</label>
+                <label for="glowWorms"><br>Glow&nbsp;Worms<br>$3.25/12&nbsp;ct.</label>
             </div>
             <div class="input">
                 <input type="number" id="waxWorms" name="waxWorms" min="0" max="10" placeholder="0">
-                <label for="waxWorms">Wax&nbsp;Worms&nbsp;$2.80/50&nbsp;ct.</label>
+                <label for="waxWorms"><br>Wax&nbsp;Worms<br>$2.80/50&nbsp;ct.</label>
             </div>
             <div class="input">
                 <input type="number" id="leeches" name="leeches" min="0" max="10" placeholder="0">
-                <label for="leeches">Leeches&nbsp;$4.00/12ct.</label>
+                <label for="leeches"><br>Leeches<br>4.00/12ct.</label>
             </div>
         </fieldset>
         <fieldset id="liveFish">
             <legend>Live&nbsp;Fish</legend>
             <div class="input">
                 <input type="number" id="crappieMinnows" name="crappieMinnows" min="0" max="10" placeholder="0">
-                <label for="crappieMinnows">Crappie&nbsp;Minnows&nbsp;$2.00/12&nbsp;ct.</label>
+                <label for="crappieMinnows"><br>Crappie&nbsp;Minnows<br>2.00/12&nbsp;ct.</label>
             </div>
             <div class="input">
                 <input type="number" id="bassMinnows" name="bassMinnows" min="0" max="10" placeholder="0">
-                <label for="bassMinnows">Bass&nbsp;Minnows&nbsp;$2.20/12&nbsp;ct.</label>
+                <label for="bassMinnows"><br>Bass&nbsp;Minnows<br>2.20/12&nbsp;ct.</label>
             </div>
             <div class="input">
                 <input type="number" id="chubbs" name="chubbs" min="0" max="10" placeholder="0">
-                <label for="chubbs">Chubbs&nbsp;$2.00/ea.</label>
+                <label for="chubbs"><br>Chubbs<br>2.00/ea.</label>
             </div>
             <div class="input">
                 <input type="number" id="goldfishSmall" name="goldfishSmall" min="0" max="10" placeholder="0">
-                <label for="goldfishSmall">Goldfish-Small&nbsp;$2.00/ea.</label>
+                <label for="goldfishSmall"><br>Goldfish-Small<br>2.00/ea.</label>
             </div>
             <div class="input">
                 <input type="number" id="goldfishLarge" name="goldfishLarge" min="0" max="10" placeholder="0">
-                <label for="goldfishLarge">Goldfish-Large&nbsp;$3.00/ea.</label>
+                <label for="goldfishLarge"><br>Goldfish-Large<br>3.00/ea.</label>
             </div>
             <div class="input">
                 <input type="number" id="catfishSmall" name="catfishSmall" min="0" max="10" placeholder="0">
-                <label for="catfishSmall">Catfish-Small&nbsp;$1.50/ea.</label>
+                <label for="catfishSmall"><br>Catfish-Small<br>1.50/ea.</label>
             </div>
             <div class="input">
                 <input type="number" id="catfishMedium" name="catfishMedium" min="0" max="10" placeholder="0">
-                <label for="catfishMedium">Catfish-Medium&nbsp;$3.00/ea</label>
+                <label for="catfishMedium"><br>Catfish-Medium<br>3.00/ea</label>
             </div>
             <div class="input">
                 <input type="number" id="catfishLarge" name="catfishLarge" min="0" max="10" placeholder="0">
-                <label for="catfishLarge">Catfish-Large&nbsp;$4.50/ea</label>
+                <label for="catfishLarge"><br>Catfish-Large<br>4.50/ea</label>
             </div>
         </fieldset>
 
@@ -110,33 +113,34 @@
             <legend>Cold&nbsp;Bait</legend>
             <div class="input">
                 <input type="number" id="skipjack" name="skipjack" min="0" max="10" placeholder="0">
-                <label for="skipjack">Skipjack&nbsp;$8.00</label>
+                <label for="skipjack"><br>Skipjack<br>8.00</label>
             </div>
             <div class="input">
                 <input type="number" id="shad" name="shad" min="0" max="10" placeholder="0">
-                <label for="shad">Shad&nbsp;$6.00</label>
+                <label for="shad"><br>Shad<br>6.00</label>
             </div>
             <div class="input">
                 <input type="number" id="straberryLiver" name="straberryLiver" min="0" max="10" placeholder="0">
-                <label for="straberryLiver">Strawberry&nbsp;Liver&nbsp;$3.00/tub</label>
+                <label for="straberryLiver"><br>Strawberry&nbsp;Liver<br>3.00/tub</label>
             </div>
             <div class="input">
                 <input type="number" id="cherryLiver" name="cherryLiver" min="0" max="10" placeholder="0">
-                <label for="cherryLiver">Cherry Liver&nbsp;$3.00/tub</label>
+                <label for="cherryLiver"><br>Cherry Liver<br>3.00/tub</label>
             </div>
             <div class="input">
                 <input type="number" id="liver" name="liver" min="0" max="10" placeholder="0">
-                <label for="liver">Liver&nbsp;$3.00/tub.</label>
+                <label for="liver"><br>Liver<br>3.00/tub.</label>
             </div>
             <div class="input">
                 <input type="number" id="shrimp" name="shrimp" min="0" max="10" placeholder="0">
-                <label for="shrimp">Shrimp&nbsp;$4.50/tub</label>
+                <label for="shrimp"><br>Shrimp<br>4.50/tub</label>
             </div>
             <div class="input">
                 <input type="number" id="corn" name="corn" min="0" max="10" placeholder="0">
-                <label for="corn">Corn&nbsp;$1.00/tub</label>
+                <label for="corn"><br>Corn<br>1.00/tub</label>
             </div>
         </fieldset>
+        </div>
         <div id="buttons">
             <input type="submit" value="Submit My Order">
             <input type="reset" value="Cancel">

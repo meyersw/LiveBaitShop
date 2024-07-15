@@ -7,11 +7,29 @@
     style.css
 */
 
-
-
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
 
 /* form styles */
 
 .input {
     white-space: nowrap;
+    width: 100%;
 }
+
+fieldset>div {
+    padding: 10px;
+}
+
+fieldset {
+    width: 80%;
+}
+
+/* grid styles */
+
+/* responsive styles */
+
